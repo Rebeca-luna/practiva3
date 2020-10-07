@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="form-register">
+    <h4>FORMULARIO DE REGISTRO PARA NUEVO INGRESO</h4>
+    <div>
+        <label for="usuario">Nombre:</label>
+        <input class="controls" type="text" name="nombres" id="nombre" placeholder="Ingrese su nombre">
+        </div><br>
+        <div>
+        <label for="apellidos">Ingresa tus apellidos</label>
+        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingresa tus apellidos">
+        </div><br>
+        <div>
+        <label for="no.control">Ingrese su numero de control</label>
+        <input class="controls" type="text" name="no. control" id="semestre" placeholder="Ingrese el número de control">
+        </div><br>
+        <div>
+        <label for="nombre del tutor">Ingrese el nombre completo de su tutor</label>
+        <input class="controls" type="text" name="nombre" id="Nombre del tutor" placeholder="Ingrese el nombre completo de su tutor">
+        </div><br>
+        <div>
+        <label for="usuario">Correo electronico:</label>
+        <input class="controls" type="text" name="Correo" id="nombre" placeholder="Ingrese su correo">
+        </div><br>
+        
+            <h3><div>Sexo: <br>
+                <input type="radio" id="masculino" name="sexo" value="masculino">
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" id="femenino" name="sexo" value="femenino">
+                <label for="femenino">Femenino</label><br>
+            </div><br></h3>
+            
+            <h3 ><div>Turno: <br>
+                <input type="radio" id="masculino" name="Turno" value="Matutino">
+                <label for="Matutino">Matutino</label><br>
+                <input type="radio" id="femenino" name="urno" value="Vespertino">
+                <label for="Vespertino">Vespertino</label><br>
+            </div><br></h3>
+
+            <h2><p>Especialidad</p><select class="select-css"></h2>
+            <label for="select">Especialidad:</label>
+            <option value="AL">Alimentos</option>
+            <option value="CT">Contabilidad</option>
+            <option value="PR">Programación</option>
+            <option value="LO">Logistica</option>
+            <option value="EL">Electronica</option>
+            <option value="CR">Construcción</option>
+            <option value="" selected="selected">Selecciona una especialidad...</option>
+        </select></p>
+
+        <h3><div>Talleres extraescolares: <br>
+            <input type="radio" id="pintura" name="Talleres" value="arte y pintura">
+            <label for="pintura">Arte y pintura</label><br>
+            <input type="radio" id="proteccion civil" name="Talleres" value="proteccion civil">
+            <label for="proteccion civil">Proteccion civil</label><br>
+            <input type="radio" id="Escolta" name="Talleres" value="Escolta">
+            <label for="Escolta">Escolta</label><br>
+            <input type="radio" id="Deporte" name="Talleres" value="Deporte">
+            <label for="Deporte">Futbol</label><br>
+            <input type="radio" id="musica" name="Talleres" value="musica">
+            <label for="musica">Banda de música</label><br>
+            <input type="radio" id="musica" name="Talleres" value="musica">
+            <label for="musica">Rondalla</label><br>
+            <input type="radio" id="Danza" name="Talleres" value="Danza">
+            <label for="Danza">Danza</label><br>
+        </div><br></h3>
+
+            <h3><div>Servicio médico: <br>
+                <input type="checkbox" id="seguro medico" name="aficiones" value="seguro">
+                <label for="seguro">IMSS</label><br>
+                <input type="checkbox" id="seguro medico" name="aficiones" value="seguro">
+                <label for="seguro">ISSTE</label><br>
+                <input type="checkbox" id="seguro medico" name="aficiones" value="Seguro">
+                <label for="seguro">Seguro popular</label><br>
+            </div><br></h3>
+     
+           
+            <input class="botons" type="submit" value="Registrar">
+    </div>
+    </section>
+</body>
+</html>
